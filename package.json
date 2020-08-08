@@ -5,7 +5,8 @@
   "scripts": {
     "standalone": "microbundle src/standalone.mjs -o dist/standalone.js -f es,umd --no-sourcemap --target web",
     "mini": "microbundle src/mini.mjs -o dist/mini.js -f es,umd --no-sourcemap --target web",
-    "bundle": "microbundle src/bundle.mjs -o dist/bundle.js -f es,umd --no-sourcemap --target web"
+    "bundle": "microbundle src/bundle.mjs -o dist/bundle.js -f es,umd --no-sourcemap --target web",
+    "all": "node build.js"
   },
   "devDependencies": {
     "htm": "^3.0.4",
